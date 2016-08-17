@@ -1,0 +1,9 @@
+#!/usr/bin/gnuplot
+
+set title "Context-Switches vs Time"
+set xlabel "X"
+set ylabel "Y"
+set ytics "0.01"
+set term png
+set output "Context-Swithces.png"
+plot "context" title "" with lines

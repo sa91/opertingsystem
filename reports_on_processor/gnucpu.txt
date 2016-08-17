@@ -1,0 +1,9 @@
+#!/usr/bin/gnuplot
+
+set title "Cpu vs Time"
+set xlabel "X"
+set ylabel "Y"
+set ytics "0.01"
+set term png
+set output "cpu.png"
+plot "cpu" title "" with lines
